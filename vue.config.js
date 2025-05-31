@@ -1,4 +1,4 @@
 module.exports = {
 	publicPath: "/dneprMastrok/",
-	transpileDependencies: true
-  }
+	transpileDependencies: []
+  }  
