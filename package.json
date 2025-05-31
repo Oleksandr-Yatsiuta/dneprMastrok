@@ -6,6 +6,7 @@
     "serve": "vue-cli-service serve --open",
     "serve-offline": "vue-cli-service serve --open --offline",
     "build": "vue-cli-service build",
+    "predeploy":"yarn build",
     "deploy": "gh-pages -d dist",
     "lint": "vue-cli-service lint",
     "tunnel": "npx ngrok http -host-header=localhost:8080 8080"
